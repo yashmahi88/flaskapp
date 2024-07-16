@@ -12,3 +12,12 @@ if __name__ == '__main__':
 @app.route('/newroute')
 def new_route():
     return 'This is a new route!'
+
+@app.route('/')
+def hello_world():
+    return 'Hello, Kubernetes! Updated version.'
+
+@app.route('/newroute')
+def new_route():
+    return 'This is a new route!'
+
